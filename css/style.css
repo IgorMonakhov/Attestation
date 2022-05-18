@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: lightslategray;
+}
+
+.footer {
+  margin: 5px;
+  background-color: cornflowerblue;
+  padding: 12px;
+  font: 1.5em sans-serif;
+  display: block;
+}
+
+.box-score,
+.box-endofgame {
+  display: inline-block;
+  width: 33.333%;
+  font-size: 3vmin;
+}
+
+.box-endofgame {
+  text-align: center;
+  visibility: hidden;
+  color: red;
+}
